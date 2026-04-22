@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JADWAL MAPEL</title>
+    <style>
+        /* warna dan ukuran bisa di sesuaikan sendiri */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: pink;
+        }
+
+
+        table,
+        th,
+        td {
+            border: 2px solid black;
+            border-collapse: separate;
+            text-align: center;
+            padding: 8px;
+            border-spacing: 5px;
+        }
+
+
+
+
+        table {
+            margin-top: 100px;
+            width: 80%;
+            background-color: rgb(209, 150, 150);
+        }
+
+
+
+
+        th,
+        td {
+            background-color: ;
+        }
+
+
+
+
+        caption {
+            font-size: 30px;
+            /* font-family: ; */
+            font-weight: 900;
+            color: ;
+        }
+    </style>
+</head>
+
+
+<body>
+    <table>
+        <caption>Class Schedule</caption>
+
+
+
+        <!-- HEADER -->
+
+        <tr style="background-color: palevioletred;">
+            <th rowspan="3">DAY</th>
+            <th colspan="3">SEMINAR</th>
+        </tr>
+
+        <tr style="background-color: palevioletred;">
+            <th colspan="2">SCHEDULE</th>
+            <th rowspan="2">TOPIC</th>
+        </tr>
+
+        <tr style="background-color: rgb(160, 160, 226);">
+            <th>BEGIN</th>
+            <th>END</th>
+        </tr>
+
+
+
+        <!-- Day, Seminar, Schedule (Begin, End), Topic -->
+
+
+
+
+        <!-- CONTENT DAY -->
+        <tr>
+            <th rowspan="6" style="background-color: rgb(225, 180, 108);">Senin</th>
+            <th>7:30</th>
+            <th>9:30AM</th>
+            <th>Ipa</th>
+        </tr>
+
+        <tr>
+            <th>9:30</th>
+            <th>10:10</th>
+            <th>Matematika</th>
+        </tr>
+
+        <tr style="background-color: rgb(232, 225, 145);">
+            <th colspan="3">Break</th>
+        </tr>
+
+        <tr>
+            <th>10:30</th>
+            <th>11:50</th>
+            <th>Matematika</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Lunch</th>
+        </tr>
+
+        <tr>
+            <th>12:40</th>
+            <th>14:00</th>
+            <th>IPS</th>
+        </tr>
+
+        <tr>
+            <th rowspan="6" style="background-color: rgb(225, 180, 108);">Selasa</th>
+            <th>7:30</th>
+            <th>9:30</th>
+            <th>Pkn</th>
+        </tr>
+
+        <tr>
+            <th>9:30</th>
+            <th>10:10</th>
+            <th>Olahraga</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Break</th>
+        </tr>
+
+        <tr>
+            <th>10:30</th>
+            <th>11:50</th>
+            <th>Olahraga</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Lunch</th>
+        </tr>
+
+        <tr>
+            <th>12:40</th>
+            <th>14:00</th>
+            <th>Informatika</th>
+        </tr>
+
+        <tr>
+            <th rowspan="6" style="background-color: rgb(225, 180, 108);">Rabu</th>
+            <th>7:30</th>
+            <th>8:50</th>
+            <th>Koding</th>
+        </tr>
+
+        <tr>
+            <th>8:50</th>
+            <th>10:10</th>
+            <th>Bahasa Inggris</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Break</th>
+        </tr>
+
+        <tr>
+            <th>10:30</th>
+            <th>11:50</th>
+            <th>Bahasa Indonesia</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Lunch</th>
+        </tr>
+
+        <tr>
+            <th>12:40</th>
+            <th>14:00</th>
+            <th>Agama</th>
+        </tr>
+
+        <tr>
+            <th rowspan="7" style="background-color: rgb(225, 180, 108);">Kamis</th>
+            <th>7:30</th>
+            <th>9:30</th>
+            <th>Bahasa Inggris</th>
+        </tr>
+
+        <tr>
+            <th>08:50</th>
+            <th>10:10</th>
+            <th>Seni rupa</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Break</th>
+        </tr>
+
+        <tr>
+            <th>10:30</th>
+            <th>11:10</th>
+            <th>Seni rupa</th>
+        </tr>
+
+        <tr>
+            <th>11:10</th>
+            <th>11:50</th>
+            <th>Pendidikan Agama</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Lunch</th>
+        </tr>
+
+        <tr>
+            <th>12:40</th>
+            <th>14:00</th>
+            <th>IPS</th>
+        </tr>
+
+        <tr>
+            <th rowspan="7" style="background-color: rgb(225, 180, 108);">Jumat</th>
+        </tr>
+
+        <tr>
+            <th>7:30</th>
+            <th>8:50</th>
+            <th>Matematika</th>
+        </tr>
+
+        <tr>
+            <th>8:50</th>
+            <th>10:10</th>
+            <th>Bahasa Indonesia</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Break</th>
+        </tr>
+
+        <tr>
+            <th>10:30</th>
+            <th>11:50</th>
+            <th>Bahasa Indonesia</th>
+        </tr>
+
+        <tr>
+            <th colspan="3" style="background-color: rgb(232, 225, 145);">Lunch</th>
+        </tr>
+
+        <tr>
+            <th>12:40</th>
+            <th>14:00</th>
+            <th>IPA</th>
+        </tr>
+
+
+        <!-- Jadwal Senin-Jumat beserta waktu dan Mapelnya -->
+
+
+    </table>
+
+
+</body>
+
+</html>
